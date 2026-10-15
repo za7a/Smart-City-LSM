@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+python-dotenv
+PyJWT
+bcrypt
+python-multipart
+apify-client
+# Opsional (IndoBERT), lalu set USE_INDOBERT=1 di .env:
+transformers
+torch
+
+# Opsional, hanya untuk scripts/tarik_komentar_instagram.py:
+pandas
